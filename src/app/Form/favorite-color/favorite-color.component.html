@@ -1,0 +1,11 @@
+<p>favorite-color works!</p>
+<p>
+  <span> Reactive Form </span> <br />
+  Favorite Color: <input type="text" [formControl]="favoriteColorControl" />
+  {{ favoriteColorControl.value }}
+</p>
+<p>
+  <span> TD Form </span> <br />
+  Favorite Color: <input type="text" [(ngModel)]="favoriteColor" />
+  {{ favoriteColor }}
+</p>
